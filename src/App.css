@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --purple-color: #7070B0;
+  --Text-color: #545454;
+  --Text-color-gras:rgba(84,84,84, 0.7);
+  --text-color: rgb(0, 0, 0);
+  --backGround-color: white;
+  --linier-color: linear-gradient(to top, white, white, #F5F5F5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Dark mode variables */
+:root.dark-mode {
+  --purple-color: #7070B0;
+  --Text-color: #dddddd;
+  --text-color: rgb(255, 255, 255);
+  --backGround-color: rgb(7, 7, 42);
+  --linier-color: linear-gradient(to top, rgb(7, 7, 42), #2f2e2e);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.schrollDown{
+  position: absolute;
+  right: 4.4vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: .5vw;
+  transform: rotate(90deg);
+  font-weight: 600;
+  font-size: 1vw;
+  color: var(--Text-color);
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
+.schrollDown img{
+  transition: transform .5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.schrollDown:hover img{
+  transform: translateX(5px);
+}
+
+.schrollDown:hover p{
+  color: #7070B0;
+}
+
+.ZB{
+  font-size: 36vw;
+  font-weight: 700;
+  position: absolute;
+  background: var(--linier-color);
+  -webkit-background-clip: text; /* For Webkit-based browsers (Chrome, Safari) */
+  background-clip: text;
+  color: transparent;
 }

@@ -1,0 +1,77 @@
+
+.workContainer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 3vw;
+}
+
+.workContainerInside{
+    padding: 0vw 12vw ;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vw;
+    margin-bottom: 5vw;
+}
+
+
+
+.workTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.color{
+    color: var(--purple-color);
+}
+
+.font{
+    font-size: 1.3vw;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContainerElement{
+    z-index: 3;
+}
+
+.imageProject{
+    height: 18vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.projectText div p{
+    width: fit-content;
+    z-index: 3;
+}
+
+.projectText div{
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3vw;
+    font-weight: 700;
+}
+
+.descProject{
+    width: 34.4vw;
+}

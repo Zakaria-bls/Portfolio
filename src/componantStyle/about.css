@@ -1,0 +1,243 @@
+.secondSection{ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 5vw 0px 2vw 0px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#aboutSkills{
+    position: absolute;
+    top: 7.5vw;
+    left: 12vw;
+    display: flex;
+    flex-direction: column;
+    gap: .6vw;
+    z-index: 3;
+    font-size: 1vw;
+}
+
+.active{
+    border-bottom:2px solid var(--purple-color) ;
+    color: var(--purple-color);
+}
+ 
+.noActive{
+    color: var(--Text-color-gras);
+    border-bottom:none ;
+}
+
+.AS{
+    display: flex;
+    gap: 1.3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.secondSectionContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6vw;
+}
+
+#meTitle{
+    font-size: 1.6vw;
+    font-weight: 800;
+    color: var(--purple-color);
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .6vw;
+    font-size: 1vw;
+    font-weight: 500;
+    color: var(--Text-color-gras);
+    word-spacing: 2px;
+    z-index: 3;
+}
+
+#textContainer p{
+    line-height: 1.45vw;
+}
+
+
+.skillsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    z-index: 3;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+}
+
+.headerSkills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSkills div{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 1.14vw;
+    font-weight: 800;
+    color: black;
+}
+
+.headerSkills img{
+    height: 1vw;
+}
+
+.headerSkills p,.arrow{
+    cursor: pointer;
+}
+ 
+
+.arrow{
+    height: 1vw;
+}
+
+
+.skillElements{
+    padding-left: 3.2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+}
+
+.skillElement{
+    display: flex;
+    flex-direction: column;
+    gap: .2vw;
+}
+
+.skillElement div{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8vw;
+    font-weight: 600;
+    color: var(--Text-color-gras);
+}
+
+.border{
+    height: 8px;
+    border: 1px solid var(--Text-color-gras);
+    border-radius: 4px;
+}
+
+.border .level{
+    background-color: var(--purple-color);
+    border-radius: 4px;
+}
+
+.lastItem{
+    margin-bottom: 1.5vw;
+}
+
+
+@keyframes fi {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 55%;
+    }
+}
+
+@keyframes fo {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 70%;
+    }
+}
+
+@keyframes fiv {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 85%;
+    }
+}
+
+@keyframes sex {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 90%;
+    }
+}
+
+@keyframes sev {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 40%;
+    }
+}
+
+@keyframes se {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 60%;
+    }
+}
+
+@keyframes th {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 65%;
+    }
+}
+
+@keyframes ea {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 50%;
+    }
+}
+
+._90{
+    animation: sex 1s ease-in-out forwards;
+}
+._85{
+    animation: fiv 1s ease-in-out forwards;
+}
+._70{
+    animation: fo 1s ease-in-out forwards;
+}
+._60{
+    animation: se 1s ease-in-out forwards;
+}
+._65{
+    animation: th 1s ease-in-out forwards;
+}
+._55{
+    animation: fi 1s ease-in-out forwards;
+}
+._50{
+    animation: ea 1s ease-in-out forwards;
+}
+._40{
+    animation: sev 1s ease-in-out forwards;
+}

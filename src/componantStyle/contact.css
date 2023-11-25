@@ -1,0 +1,113 @@
+.contactSection{
+    padding: 2vw 12vw 0vw 12vw;
+    overflow: hidden;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+#txtContact{
+    font-size: 4vw;
+    width: 41%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var( --Text-color);
+}
+
+#purpleTxt{
+    color: var(--purple-color);
+}
+
+.contactInputsTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.contactInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vw;
+}
+
+.contactInputsTXT{
+    display: flex;
+    gap: 10vw;
+}
+
+.contactInput{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4vw;
+}
+
+.contactInput textarea{
+    margin-top: 1vw;
+}
+
+.contactInput textarea, .contactInput input{
+    font-size: 1vw;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: .5vw 0px;
+    outline: none;
+    border: none ;
+    border-bottom:  2px solid var(--Text-color-gras);
+    transition: all .5s ease;
+}
+
+.contactInput Textarea::placeholder, .contactInput input::placeholder{
+    color: var(--Text-color);
+}
+
+
+.contactInput div{
+    display: flex;
+    gap: 5vw;
+}
+
+.contactInput div input{
+    flex: 1;
+}
+
+.contactTXT{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5vw;
+}
+
+#discriptionContact{
+    width:68%;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.contactTXT .informationpersonal{
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.contactTXT .informationpersonal div{
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    font-weight: 400;
+}
+
+.contactTXT div img{
+    height: 1vw;
+}
+
+
+.contactInput input:focus, .contactInput Textarea:focus{
+    border-bottom:  2px solid var(--purple-color);
+    color: var(--purple-color);
+}
+
+.contactInput input:focus::placeholder, .contactInput Textarea:focus::placeholder{
+    color: var(--purple-color);
+}
