@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4a807c9d.css",
-    "main.js": "/Portfolio/static/js/main.f5f2c9ff.js",
+    "main.js": "/Portfolio/static/js/main.bcc15680.js",
     "static/media/avendre.svg": "/Portfolio/static/media/avendre.33cf05efcfee259426702669f8d1d8f3.svg",
     "static/media/myCima.svg": "/Portfolio/static/media/myCima.2719eaf772b658d07c8895cc6e4058ed.svg",
     "static/media/sonatrach.svg": "/Portfolio/static/media/sonatrach.c8cc8d8a13b01118fd4018e64176477b.svg",
     "static/media/shopPc.svg": "/Portfolio/static/media/shopPc.10182152aa3a5bc69ac2827edf4ba2eb.svg",
     "static/media/reatec.svg": "/Portfolio/static/media/reatec.bad93a0b3c087a832637969cadc702f7.svg",
+    "static/media/CV-zakariaB.pdf": "/Portfolio/static/media/CV-zakariaB.63e01f9468a35144487e.pdf",
     "static/media/profilePic.svg": "/Portfolio/static/media/profilePic.4fbb3704e075678868a47bf7bafa75cf.svg",
-    "static/media/CVZakaria.pdf": "/Portfolio/static/media/CVZakaria.99036b0de83c3e00561b.pdf",
     "static/media/revo.svg": "/Portfolio/static/media/revo.0448ef09429ef2373c0479478e98a2ff.svg",
     "static/media/bonneCommand.svg": "/Portfolio/static/media/bonneCommand.856c1e7328f9b329188a984b0294fb45.svg",
     "static/media/Instagram.svg": "/Portfolio/static/media/Instagram.0e592964e9931af8bbf46e512fec1bdf.svg",
@@ -25,10 +25,10 @@
     "static/media/logoCode.svg": "/Portfolio/static/media/logoCode.aac6837d6a655d7cd625c37fbee0c2bc.svg",
     "static/media/mail.svg": "/Portfolio/static/media/mail.59c1817970ae156f48659b1339d45306.svg",
     "main.4a807c9d.css.map": "/Portfolio/static/css/main.4a807c9d.css.map",
-    "main.f5f2c9ff.js.map": "/Portfolio/static/js/main.f5f2c9ff.js.map"
+    "main.bcc15680.js.map": "/Portfolio/static/js/main.bcc15680.js.map"
   },
   "entrypoints": [
     "static/css/main.4a807c9d.css",
-    "static/js/main.f5f2c9ff.js"
+    "static/js/main.bcc15680.js"
   ]
 }
