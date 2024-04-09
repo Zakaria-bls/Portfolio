@@ -52,7 +52,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>SONAT APPS</p>
                           <p className='typeProject'>SOFTWARE FOR WINDOWS</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'>Un logiciel dédié à l'entreprise nationale Sonatrach pour la gestion et le suivi du transport de gaz et de l'hydrocarbure.</p>
                       </div>
 
                       <div className='imageContainerElement'>
@@ -72,7 +72,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>DEEPCIMA APPS</p>
                           <p className='typeProject'>WEB APPLICATION</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'>Un site web dédié à l'univers captivant du cinéma et des séries. Plongez dans une expérience immersive où vous pouvez explorer une vaste sélection de films et de séries.</p>
                       </div>
                     </div>
 
@@ -85,7 +85,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>REATEC APPS</p>
                           <p className='typeProject'>WEB APPLICATION</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'> Un site web dédié à la présentation l' entreprise, de leur mission, de leur services et de leur réalisations</p>
                       </div>
                       <div className='imageContainerElement'>
                         <img className='imageProject' src={reatec} alt=''/>
@@ -103,7 +103,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>FACTURE APPS</p>
                           <p className='typeProject'>SOFTWARE FOR WINDOWS</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'>Le logiciel de gestion des factures d'achat et des commandes est spécialement conçu pour répondre aux besoins de l'entreprise. Simplifiez votre processus de gestion des achats en automatisant la création.</p>
                       </div>
                     </div>
 
@@ -115,7 +115,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>AVENDRE APPS</p>
                           <p className='typeProject'>WEB APPLICATION</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'> Une plateforme web dynamique dédiée à la location et à la vente d'automobiles. Les vendeurs peuvent présenter leurs véhicules, tandis que les clients ont la liberté de choisir l'automobile qui correspond parfaitement à leurs besoins.</p>
                       </div>
                       <div className='imageContainerElement'>
                         <img className='imageProject' src={avendre} alt=''/>
@@ -131,7 +131,7 @@ export default function Work({scrollToSection, section}) {
                           <p className='color'>PCs SHOP APPS</p>
                           <p className='typeProject'>WEB APPLICATION</p>
                         </div>
-                        <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
+                        <p className='textContainer descProject'>Un site web e-commerce pour la présentation des produits et la réception des commandes en ligne.</p>
                       </div>
                     </div>
 
