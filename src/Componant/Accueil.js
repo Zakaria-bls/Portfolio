@@ -13,7 +13,6 @@ import Work from './Work';
 import Contact from './Contact';
 
 //import images
-import Facebook from '../assets/Facebook.svg'
 import instagram from '../assets/Instagram.svg'
 import linkedin from '../assets/LinkedIn.svg'
 import git from '../assets/git.svg'
@@ -100,9 +99,8 @@ const Accueil = () => {
                 <div className='s1Down'>
                     <div className='socialMedia'>
                         <a href='https://github.com/Zakaria-bls' target='_blank'  rel="noopener noreferrer"><img src={git} alt=''/></a>
-                        <a href='https://www.linkedin.com' target='_blank'  rel="noopener noreferrer"><img src={linkedin} alt=''/></a>
-                        <a href='https://www.instagram.com' target='_blank'  rel="noopener noreferrer"><img src={instagram} alt=''/></a>
-                        <a href='https://www.facebook.com' target='_blank'  rel="noopener noreferrer"><img src={Facebook} alt=''/></a>
+                        <a href='https://www.linkedin.com/in/zakaria-boulsane-a6044a21b/' target='_blank'  rel="noopener noreferrer"><img src={linkedin} alt=''/></a>
+                        <a href='https://www.instagram.com/zackaria.bls/' target='_blank'  rel="noopener noreferrer"><img src={instagram} alt=''/></a>
                     </div>
 
                     <div className='Txt'>
@@ -117,17 +115,17 @@ const Accueil = () => {
             <div className='footerSection footerSame s2'>
             <p className='footerSameTitle'>Take a tour</p>
             <div className='footerDiv'>
-                <p to="/Partner" className='footerSameTxt'>Partner</p>
-                <p className='footerSameTxt'>Products</p>
+                <p className='footerSameTxt' onClick={() => scrollToSection('section3')}>Portfolio</p>
             </div>
             </div>
 
             <div className='footerSection footerSame s3'>
-            <p className='footerSameTitle'>Our Company</p>
+            <p className='footerSameTitle'>Sections</p>
             <div className='footerDiv'>
-                <p className='footerSameTxt'>à propos de nous</p>
-                <a className='footerSameTxt' href='https://goo.gl/maps/RJdasJh5WxXd7BBv9' target='_blank'  rel="noopener noreferrer">Localisation</a>
-                <p className='footerSameTxt'>Contacter nous</p>
+                <p className='footerSameTxt' onClick={() => scrollToSection('header')}>Home</p>
+                <p className='footerSameTxt' onClick={() => {scrollToSection('section2'); setSkill(true)}}>About</p>
+                <p className='footerSameTxt'  onClick={() => {scrollToSection('section2'); setSkill(false)}}>Skills</p>
+                <p className='footerSameTxt' onClick={() => scrollToSection('section4')}>Contact</p>
             </div>
             </div>
 
@@ -135,7 +133,7 @@ const Accueil = () => {
             <p className='footerSameTitle'>Subscribe</p>
             
             <div className='Txt inputTxt'>
-                <p>Abonnez-vous pour recevoir les derniers produits et nouvelles de nous</p>
+                <p>Abonnez-vous pour recevoir les dernier offres</p>
                 
                 <div className='inputContainer'>
                 <input type='email' placeholder='Email Address'/>

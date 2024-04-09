@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 
 import '../componantStyle/about.css'
 
-import logoCode from '../assets/logoCode.svg'
+import design from '../assets/design.png'
+import front from '../assets/front.png'
+import back from '../assets/back.png'
+import soft from '../assets/soft.png'
+
 import arrowRight from '../assets/arrowRight.svg'
 import arrowDown from '../assets/arrowDown.svg'
 
@@ -86,8 +90,8 @@ export default function About({skill,setSkill, scrollToSection, section}) {
             <div className='skills'>
                 <div className='headerSkills'>
                   <div>
-                    <img src={logoCode} alt=''/>
-                    <p onClick={toggleDesign}>Design</p>
+                    <img src={design} alt=''/>
+                    <p className='titleskill' onClick={toggleDesign}>Design</p>
                   </div>
                   <img className='arrow' src={showDesign? arrowDown : arrowRight} alt='' onClick={toggleDesign}/>
                 </div>
@@ -117,8 +121,8 @@ export default function About({skill,setSkill, scrollToSection, section}) {
             <div className='skills'>
                 <div className='headerSkills'>
                   <div>
-                    <img src={logoCode} alt=''/>
-                    <p onClick={toggleFrontEnd}>Front-end</p>
+                    <img src={front} alt=''/>
+                    <p className='titleskill' onClick={toggleFrontEnd}>Front-end WEB </p>
                   </div>
                   <img className='arrow' src={showFrontEnd? arrowDown : arrowRight} alt='' onClick={toggleFrontEnd}/>
                 </div>
@@ -144,28 +148,19 @@ export default function About({skill,setSkill, scrollToSection, section}) {
                     <div className='skillElement'>
                         <div>
                           <p>JS</p>
-                          <p>70%</p>
+                          <p>80%</p>
                         </div>
                         <div className='border'>
-                          <div className={`${showFrontEnd? '_70':''} level`}></div>
+                          <div className={`${showFrontEnd? '_80':''} level`}></div>
                         </div>
                     </div>
                     <div className='skillElement'>
                         <div>
                           <p>REACT JS</p>
-                          <p>60%</p>
+                          <p>75%</p>
                         </div>
                         <div className='border'>
-                          <div className={`${showFrontEnd? '_60':''} level`}></div>
-                        </div>
-                    </div>
-                    <div className='skillElement'>
-                        <div>
-                          <p>KOTLIN</p>
-                          <p>40%</p>
-                        </div>
-                        <div className='border lastItem'>
-                          <div className={`${showFrontEnd? '_40':''} level`}></div>
+                          <div className={`${showFrontEnd? '_75':''} level`}></div>
                         </div>
                     </div>
                 </div>}
@@ -178,28 +173,19 @@ export default function About({skill,setSkill, scrollToSection, section}) {
               <div className='skills'>
                 <div className='headerSkills'>
                   <div>
-                    <img src={logoCode} alt=''/>
-                    <p onClick={toggleBackEnd}>Back-end</p>
+                    <img src={back} alt=''/>
+                    <p className='titleskill' onClick={toggleBackEnd}>Back-end WEB </p>
                   </div>
                   <img className='arrow' src={showBackEnd? arrowDown : arrowRight} alt='' onClick={toggleBackEnd}/>
                 </div>
                 { showBackEnd && <div className='skillElements'>
                     <div className='skillElement'>
                         <div>
-                          <p>NODE JS</p>
-                          <p>60%</p>
-                        </div>
-                        <div className='border'>
-                          <div className={`${showBackEnd? '_60':''} level`}></div>
-                        </div>
-                    </div>
-                    <div className='skillElement'>
-                        <div>
                           <p>EXPRESS JS</p>
-                          <p>65%</p>
+                          <p>80%</p>
                         </div>
                         <div className='border'>
-                          <div className={`${showBackEnd? '_65':''} level`}></div>
+                          <div className={`${showBackEnd? '_80':''} level`}></div>
                         </div>
                     </div>
                     <div className='skillElement'>
@@ -214,10 +200,19 @@ export default function About({skill,setSkill, scrollToSection, section}) {
                     <div className='skillElement'>
                         <div>
                           <p>SEQUALIZE</p>
-                          <p>60%</p>
+                          <p>75%</p>
+                        </div>
+                        <div className='border'>
+                          <div className={`${showBackEnd? '_75':''} level`}></div>
+                        </div>
+                    </div>
+                    <div className='skillElement'>
+                        <div>
+                          <p>Mongos</p>
+                          <p>75%</p>
                         </div>
                         <div className='border lastItem'>
-                          <div className={`${showBackEnd? '_60':''} level`}></div>
+                          <div className={`${showBackEnd? '_75':''} level`}></div>
                         </div>
                     </div>
                 </div>}
@@ -229,8 +224,8 @@ export default function About({skill,setSkill, scrollToSection, section}) {
               <div className='skills'>
                 <div className='headerSkills'>
                   <div>
-                    <img src={logoCode} alt=''/>
-                    <p onClick={toggleSoftware}>Software developpement</p>
+                    <img src={soft} alt=''/>
+                    <p className='titleskill' onClick={toggleSoftware}>Software developpement</p>
                   </div>
                   <img className='arrow' src={showSoftware? arrowDown : arrowRight} alt='' onClick={toggleSoftware}/>
                 </div>
@@ -238,19 +233,19 @@ export default function About({skill,setSkill, scrollToSection, section}) {
                     <div className='skillElement'>
                         <div>
                           <p>WINFORM .NET</p>
-                          <p>60%</p>
+                          <p>70%</p>
                         </div>
                         <div className='border'>
-                          <div className={`${showSoftware? '_60':''} level`}></div>
+                          <div className={`${showSoftware? '_70':''} level`}></div>
                         </div>
                     </div>
                     <div className='skillElement'>
                         <div>
                           <p>ADO .NET</p>
-                          <p>55%</p>
+                          <p>65%</p>
                         </div>
                         <div className='border'>
-                          <div className={`${showSoftware? '_55':''} level`}></div>
+                          <div className={`${showSoftware? '_65':''} level`}></div>
                         </div>
                     </div>
                     <div className='skillElement'>

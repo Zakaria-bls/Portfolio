@@ -38,11 +38,12 @@
   font-size: 1vw;
   color: var(--Text-color);
   cursor: pointer;
-
+  z-index: 2;
 }
 
 .schrollDown img{
   transition: transform .5s ease;
+  height: 1.5vw;
 }
 
 .schrollDown:hover img{
@@ -61,4 +62,5 @@
   -webkit-background-clip: text; /* For Webkit-based browsers (Chrome, Safari) */
   background-clip: text;
   color: transparent;
+  z-index: 1;
 }

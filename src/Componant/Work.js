@@ -39,7 +39,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>REVO APPS</p>
-                          <p>WEB APPLICATION</p>
+                          <p className='typeProject'>WEB APPLICATION</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -50,7 +50,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>SONAT APPS</p>
-                          <p>SOFTWARE FOR WINDOWS</p>
+                          <p className='typeProject'>SOFTWARE FOR WINDOWS</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -70,7 +70,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>DEEPCIMA APPS</p>
-                          <p>WEB APPLICATION</p>
+                          <p className='typeProject'>WEB APPLICATION</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -83,7 +83,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>REATEC APPS</p>
-                          <p>WEB APPLICATION</p>
+                          <p className='typeProject'>WEB APPLICATION</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -101,7 +101,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>FACTURE APPS</p>
-                          <p>SOFTWARE FOR WINDOWS</p>
+                          <p className='typeProject'>SOFTWARE FOR WINDOWS</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -113,7 +113,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>AVENDRE APPS</p>
-                          <p>WEB APPLICATION</p>
+                          <p className='typeProject'>WEB APPLICATION</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>
@@ -129,7 +129,7 @@ export default function Work({scrollToSection, section}) {
                       <div className='projectText'>
                         <div>
                           <p className='color'>PCs SHOP APPS</p>
-                          <p>WEB APPLICATION</p>
+                          <p className='typeProject'>WEB APPLICATION</p>
                         </div>
                         <p className='textContainer descProject'>Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de choose Web application pour faire bcp de </p>
                       </div>

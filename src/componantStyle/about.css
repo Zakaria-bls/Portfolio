@@ -87,19 +87,23 @@
 
 .headerSkills div{
     display: flex;
-    align-items: center;
     gap: 1.5vw;
     font-size: 1.14vw;
     font-weight: 800;
     color: black;
 }
 
+.titleskill{
+    padding-top: .23vw;
+}
+
 .headerSkills img{
-    height: 1vw;
+    height: 2vw;
 }
 
 .headerSkills p,.arrow{
     cursor: pointer;
+    height: .8vw !important;
 }
  
 
@@ -195,7 +199,7 @@
       width: 0px;
     }
     to {
-      width: 60%;
+      width: 75%;
     }
 }
 
@@ -213,7 +217,7 @@
       width: 0px;
     }
     to {
-      width: 50%;
+      width: 80%;
     }
 }
 
@@ -226,7 +230,7 @@
 ._70{
     animation: fo 1s ease-in-out forwards;
 }
-._60{
+._75{
     animation: se 1s ease-in-out forwards;
 }
 ._65{
@@ -235,7 +239,7 @@
 ._55{
     animation: fi 1s ease-in-out forwards;
 }
-._50{
+._80{
     animation: ea 1s ease-in-out forwards;
 }
 ._40{

@@ -26,6 +26,8 @@
 
 .color{
     color: var(--purple-color);
+    font-size: 1.3vw;
+
 }
 
 .font{
@@ -36,9 +38,11 @@
     display: flex;
     flex-direction: column;
     gap: 3vw;
+
 }
 
 .element{
+    z-index: 2;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +76,11 @@
     font-weight: 700;
 }
 
+.typeProject{
+    font-size: 1.1vw;
+}
 .descProject{
     width: 34.4vw;
+    text-align: justify;
+    line-height: 1.5vw;
 }

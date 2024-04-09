@@ -6,7 +6,7 @@ import '../componantStyle/home.css'
 //import assets
 import download from '../assets/Download.svg'
 import profile from '../assets/profilePic.svg'
-import Cv from '../assets/CVZakaria.pdf'
+import Cv from '../assets/CV-zakariaB.pdf'
 
 //import componant
 import SchrollDown from './SchrollDown'

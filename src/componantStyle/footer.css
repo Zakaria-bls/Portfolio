@@ -102,6 +102,7 @@
     gap: 1vw;
 }
 
+
 .inputContainer{
     position: relative;
     display: flex;
@@ -116,6 +117,7 @@
     border: 2px solid #D0D0E3;
     color:black;
     transition: .5s all ease;
+    font-size: 1vw;
 }
 
 .inputContainer input:focus{
