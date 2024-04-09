@@ -20,7 +20,7 @@ export default function Home({ scrollToSection, section }) {
           <div className='insideHome'>
             <div className='insideHomeText'> 
                 <div className='homeTextGras'>
-                    <p id='name'>Hi, I’m Zakaria BOULSANE </p>
+                    <p id='name'>Hi, I’m Zakaria  </p>
                     <p id='work'>Junior Developer</p>
                 </div>
                 <div className='txtDownlaod'>
